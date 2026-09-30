@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Daniel Mikuro — CS Student | Full-Stack Developer | Cybersecurity Enthusiast">
+<link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+<title>Daniel Mikuro | Portfolio</title>
+<link rel="stylesheet" href="css\style.css">
+</head>
+<body>
+
+<div id="scroll-bar"></div>
+
+<nav id="navbar">
+  <div class="nav-logo">  <a href="#hero">Daniel<span>Mikuro</a></span></div>
+  <ul class="nav-links">
+    <li><a href="#about" target="_blank">About</a></li>
+    <li><a href="#skills" target="_blank">Skills</a></li>
+     <li><a href="#hobbies" target="_blank">Hobbies</a></li>
+    <li><a href="#projects" target="_blank">Projects</a></li>
+    <li><a href="#experience"target="_blank">Experience</a></li>
+    <li><a href="#services" target="_blank">Services</a></li>
+    <li><a href="#contact" target="_blank">Contact</a></li>
+  </ul>
+  <div class="nav-right">
+    <button class="theme-btn" id="themeBtn" title="Toggle dark/light mode">🌙</button>
+    <a href="#contact" class="nav-cta">Hire Me</a>
+    <button class="hamburger" id="ham" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<div class="mobile-nav" id="mobileNav">
+  <a href="#about"      class="mob-link"><span class="mob-icon">👤</span> About Me</a>
+  <a href="#skills"     class="mob-link"><span class="mob-icon">⚡</span> Skills</a>
+  <a href="#projects"   class="mob-link"><span class="mob-icon">💻</span> Projects</a>
+  <a href="#experience" class="mob-link"><span class="mob-icon">🎓</span> Experience</a>
+  <a href="#services"   class="mob-link"><span class="mob-icon">🛠️</span> Services</a>
+  <a href="#contact"    class="mob-link"><span class="mob-icon">📩</span> Contact Me</a>
+</div>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-blobs" aria-hidden="true">
+    <div class="blob blob-a"></div>
+    <div class="blob blob-b"></div>
+  </div>
+  <div class="hero-grid">
+    <div>
+      <div class="hero-eyebrow">Available for Internship | Projects</div>
+      <h1 class="hero-name">Hi, I'm<br><span>Daniel Mikuro</span></h1>
+      <p class="hero-tagline"><span id="typed" class="typed"></span><span class="cursor">|</span></p>
+      <p class="hero-desc">A 4th-year Computer Science student at Murang'a University of Technoology. I build clean, functional web apps and have a strong interest in ML and AI. Currently seeking internships and collaborative opportunities.Looking for a role where i can enhance my skills in a dynamic world</p>
+      
+      <div class="hero-btns">
+        <a href="#projects" class="btn btn-blue">View My Work</a>
+        <a href="cv\Daniel_Mikuro_CV.docx" class="btn btn-outline" download="Dante's resume">Download CV</a>
+        <a href="#contact" class="btn btn-dark">Contact Me</a>
+      </div>
+      <div class="hero-stats">
+        <div><div class="stat-num" data-target="6+">0</div><div class="stat-label">Projects</div></div>
+        <div><div class="stat-num" data-target="10+">0</div><div class="stat-label">Certifications</div></div>
+        <div><div class="stat-num" data-target="20+" data-suffix="">0</div><div class="stat-label">GitHub Commits</div></div>
+      </div>
+    </div>
+    <div class="hero-img-wrap" id="heroImgWrap">
+      <div class="status-chip"><span class="status-dot"></span>Open to opportunities</div>
+      <div class="hero-img">
+      
+        <img src="images\IMG-20260612-WA0008.jpg" alt="Daniel Mikuro profile photo" id="profileImg">
+      </div>
+      <div class="hero-img-badge"><span>4th Year</span>CS Student - Murang'a University of Technology</div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="container">
+    <p class="section-label reveal">About Me</p>
+    <h2 class="section-title reveal">Who I Am</h2>
+    <div class="about-grid">
+      <div class="about-text reveal from-left">
+        <p>I'm <strong>Daniel Mikuro</strong>, final year Computer Science student at  <strong>Murang'a University of Technology</strong> with a passion for building things that live on the internet. .</p>
+        <p>My technical focus is full-stack web development, but I spend significant time exploring AI,automation and ML concepts. I believe in writing clean, maintainable code and designing with the user in mind.</p>
+        
+        </div>
+      </div>
+      <div class="reveal from-right" style="transition-delay:.15s">
+        <div class="info-list">
+          <div class="info-item"><span class="info-key">Full Name</span><span class="info-val">Daniel Mikuro</span></div>
+          <div class="info-item"><span class="info-key">Degree</span><span class="info-val">BSc. Computer Science (In Progress)</span></div>
+          <div class="info-item"><span class="info-key">University</span><span class="info-val">Murang'a University of Technology</span></div>
+          <div class="info-item"><span class="info-key">Location</span><span class="info-val">Murang'a , Kenya</span></div>
+          <div class="info-item"><span class="info-key">Email</span><span class="info-val">danielmikuro29@gmail.com</span></div>
+          <div class="info-item"><span class="info-key">Phone</span><span class="info-val">+254 741480470</span></div>
+          <div class="info-item"><span class="info-key">Languages</span><span class="info-val">English (Fluent), Swahili (Native)</span></div>
+          <div class="info-item"><span class="info-key">Available</span><span class="info-val">Internship / Part-time / Remote</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <div class="container">
+    <p class="section-label reveal">Technical Skills</p>
+    <h2 class="section-title reveal">What I Work With</h2>
+    <p class="section-sub reveal">Skills built through coursework, personal projects, internships, and certifications.</p>
+    <div class="skills-grid">
+      <div class="skill-card reveal">
+        <div class="skill-card-title">Frontend</div>
+        
+        <div class="skill-row"><div class="skill-top"><span class="skill-name">HTML5 </span><span class="skill-pct">92%</span></div><div class="bar"><div class="bar-fill" data-w="92"></div></div></div>
+        <div class="skill-row"><div class="skill-top"><span class="skill-name">CSS3</span><span class="skill-pct">85%</span></div><div class="bar"><div class="bar-fill" data-w="85"></div></div></div>
+        <div class="skill-row"><div class="skill-top"><span class="skill-name">Javascript (ES6+)</span><span class="skill-pct">72%</span></div><div class="bar"><div class="bar-fill" data-w="72"></div></div></div>
+             <div class="skill-row"><div class="skill-top"><span class="skill-name">UI/UX (Figma)</span><span class="skill-pct">72%</span></div><div class="bar"><div class="bar-fill" data-w="72"></div></div></div>
+      </div>
+
+        <div class="skill-card reveal">
+        <div class="skill-card-title">Backend</div>
+        <div class="skill-row"><div class="skill-top"><span class="skill-name">Python</span><span class="skill-pct">92%</span></div><div class="bar"><div class="bar-fill" data-w="92"></div></div></div>
+        <div class="skill-row"><div class="skill-top"><span class="skill-name">Django</span><span class="skill-pct">85%</span></div><div class="bar"><div class="bar-fill" data-w="85"></div></div></div>
+     
+      </div>
+
+        <div class="skill-card reveal">
+        <div class="skill-card-title">Databases</div>
+        
+        <div class="skill-row"><div class="skill-top"><span class="skill-name">SQL</span><span class="skill-pct">92%</span></div><div class="bar"><div class="bar-fill" data-w="92"></div></div></div>
+        
+        <div class="skill-row"><div class="skill-top"><span class="skill-name">SQlite </span><span class="skill-pct">92%</span></div><div class="bar"><div class="bar-fill" data-w="92"></div></div></div>
+        <div class="skill-row"><div class="skill-top"><span class="skill-name">PostgreSQL</span><span class="skill-pct">85%</span></div><div class="bar"><div class="bar-fill" data-w="85"></div></div></div>
+        
+      </div>
+
+        <div class="skill-card reveal">
+        <div class="skill-card-title">Version Control</div>
+       
+        <div class="skill-row"><div class="skill-top"><span class="skill-name">Git </span><span class="skill-pct">92%</span></div><div class="bar"><div class="bar-fill" data-w="92"></div></div></div>
+        <div class="skill-row"><div class="skill-top"><span class="skill-name">Github</span><span class="skill-pct">85%</span></div><div class="bar"><div class="bar-fill" data-w="85"></div></div></div>
+  
+      </div>
+
+        <div class="skill-card reveal">
+        <div class="skill-card-title">Cybersecurity best practices(Prevention)</div>
+        <div class="skill-row"><div class="skill-top"><span class="skill-name">SQL Injection </span><span class="skill-pct">97%</span></div><div class="bar"><div class="bar-fill" data-w="22"></div></div></div>
+        <div class="skill-row"><div class="skill-top"><span class="skill-name">DOS & DDOS attacks</span><span class="skill-pct">92%</span></div><div class="bar"><div class="bar-fill" data-w="92"></div></div></div>
+        <div class="skill-row"><div class="skill-top"><span class="skill-name">Cross Site Scripting</span><span class="skill-pct">85%</span></div><div class="bar"><div class="bar-fill" data-w="85"></div></div></div>
+        <div class="skill-row"><div class="skill-top"><span class="skill-name">Session hijacking</span><span class="skill-pct">72%</span></div><div class="bar"><div class="bar-fill" data-w="72"></div></div></div>
+      </div>
+
+        
+        
+
+      </div>
+    </div>
+
+    
+    
+  </div>
+
+
+  
+</section>
+<!-- HOBBIES & INTERESTS SECTION -->
+<section id="hobbies" class="section hobbies-section">
+    <div class="container">
+
+        <div class="section-heading">
+            <span class="section-label">PERSONAL INTERESTS</span>
+            <h2>Hobbies & Interests</h2>
+            <p>
+                Beyond academics and software development, I enjoy activities
+                that encourage creativity, continuous learning and personal growth.
+            </p>
+        </div>
+
+        <div class="hobbies-grid">
+
+            <!-- Creating Personal Projects -->
+            <div class="hobby-card">
+                <div class="hobby-icon">
+                    <i class="fas fa-laptop-code"></i>
+                </div>
+                <h3>Creating Personal Projects</h3>
+                <p>
+                    Building personal projects to enhance my programming skills,
+                    explore ideas and turn concepts into practical solutions.
+                </p>
+            </div>
+
+            <!-- Learning New Technologies -->
+            <div class="hobby-card">
+                <div class="hobby-icon">
+                    <i class="fas fa-lightbulb"></i>
+                </div>
+                <h3>Learning New Technologies</h3>
+                <p>
+                    Exploring new tools, frameworks and technologies to expand
+                    my technical knowledge and stay curious about technology.
+                </p>
+            </div>
+
+            <!-- AI & ML -->
+            <div class="hobby-card">
+                <div class="hobby-icon">
+                    <i class="fas fa-brain"></i>
+                </div>
+                <h3>Exploring AI & ML Concepts</h3>
+                <p>
+                    Learning about artificial intelligence and machine learning
+                    concepts and exploring how they can be applied to solve real-world problems.
+                </p>
+            </div>
+
+            <!-- Gaming -->
+            <div class="hobby-card">
+                <div class="hobby-icon">
+                    <i class="fas fa-gamepad"></i>
+                </div>
+                <h3>Gaming</h3>
+                <p>
+                    Enjoying games during my free time for entertainment,
+                    relaxation and problem-solving challenges.
+                </p>
+            </div>
+
+            <!-- Music -->
+            <div class="hobby-card">
+                <div class="hobby-icon">
+                    <i class="fas fa-music"></i>
+                </div>
+                <h3>Music</h3>
+                <p>
+                    Listening to music as a way to relax, stay motivated
+                    and enjoy different sounds and genres.
+                </p>
+            </div>
+
+            <!-- Fitness -->
+            <div class="hobby-card">
+                <div class="hobby-icon">
+                    <i class="fas fa-dumbbell"></i>
+                </div>
+                <h3>Fitness & Exercise</h3>
+                <p>
+                    Staying active through fitness and exercise to maintain
+                    a healthy lifestyle, discipline and overall well-being.
+                </p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="container">
+    <p class="section-label reveal">My Work</p>
+    <h2 class="section-title reveal">Featured Projects</h2>
+    <p class="section-sub reveal">Real projects built from scratch. Click to see the code or live demo.</p>
+    <div class="projects-filter reveal">
+      <button class="f-btn active" data-f="all">All</button>
+      <button class="f-btn" data-f="web">Web</button>
+      <button class="f-btn" data-f="ai">AI/ML</button>
+   
+    </div>
+    <div class="projects-grid">
+    
+      <div class="proj-card reveal" data-cat="web"><div class="proj-thumb">🛒</div><div class="proj-body"><div class="proj-tags"><span class="proj-tag">Javascript</span><span class="proj-tag">Django</span><span class="proj-tag">M-Pesa  API</span></div><div class="proj-title">BunnyCart — E-Commerce Platform</div><div class="proj-desc">Full-stack featured e-commerce platform that allows users to browse products,manage shopping carts,place orders and manage accounts through a responsive user -friendly interface . </div><div class="proj-links"><a class="pl-gh" href="https://github.com/Dante254-del/E-commerce-website">GitHub ↗</a><a class="pl-live" href="https://e-commerce-gl09.onrender.com/">Live Demo</a></div></div></div>
+
+      <div class="proj-card reveal" data-cat="web" style="transition-delay:.08s"><div class="proj-thumb"><i class="fa-solid fa-bed"></i></div><div class="proj-body"><div class="proj-tags"><span class="proj-tag">PHP</span><span class="proj-tag">MySQL</span><span class="proj-tag">JAVASCRIPT</span></div><div class="proj-title">HavenHub —Hotel Management System(PHP Version)</div><div class="proj-desc">A web based HMS developed with PHP to streamline room reservations,guest management,room availability,bookings and basic hotel operations.</div><div class="proj-links"><a class="pl-gh" href="https://github.com/Dante254-del/Hotel-Management-System-php">GitHub ↗</a><a class="pl-live" href="https://hotel-management-system-2ao9.onrender.com">Live Demo</a></div></div></div>
+
+      <div class="proj-card reveal" data-cat="web" style="transition-delay:.08s"><div class="proj-thumb"><i class="fa-solid fa-laptop"></i></div><div class="proj-body"><div class="proj-tags"><span class="proj-tag">HTML</span><span class="proj-tag">CSS</span><span class="proj-tag">JAVASCRIPT</span></div><div class="proj-title">Portfolio Website</div><div class="proj-desc">A simple,responsive web-based application that showcases my skills,projects,experience,hobbies and contact information.</div><div class="proj-links"><a class="pl-gh" href="https://github.com/Dante254-del/Hotel-Management-System-php">GitHub ↗</a><a class="pl-live" href="https://hotel-management-system-2ao9.onrender.com">Live Demo</a></div></div></div>
+      
+
+      <div class="proj-card reveal" data-cat="ai"><div class="proj-thumb">🤖 </div><div class="proj-body"><div class="proj-tags"><span class="proj-tag">Gemini API </span><span class="proj-tag">Python</span><span class="proj-tag">NLP</span></div><div class="proj-title">Smartbot-AI study assistant</div><div class="proj-desc"> AI powered chatbot designed to assist students by providing quick answers to common academic and university-related questions,helping them access information more conviniently.</div><div class="proj-links"><a class="pl-gh" href="#">GitHub ↗</a><a class="pl-live" href="#">Live Demo</a></div></div></div>
+
+      
+      
+
+      <div class="proj-card reveal" data-cat="web" style="transition-delay:.08s"><div class="proj-thumb"><i class="fa-solid fa-bed"></i></div><div 
+      class="proj-body"><div class="proj-tags"><span class="proj-tag">Python-Django</span><span class="proj-tag">Javascript</span><span class="proj-tag">Mpesa API</span></div><div class="proj-title">HavenHub — Hotel Management System(Django Version)</div><div class="proj-desc">A Django based hotel management system designed to manage rooms,guests,reservations,availability and hotel operations through a secure and intuintive web interface.</div><div class="proj-links"><a class="pl-gh" href="https://github.com/Dante254-del/Hotel_management_system">GitHub ↗</a><a class="pl-live" href="https://hotel-management-system-2ao9.onrender.com">Live Demo</a></div></div></div>
+
+      
+
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience">
+  <div class="container">
+    <p class="section-label reveal">My Journey </p>
+    <h2 class="section-title reveal">Education & Experience</h2>
+    <p class="section-sub reveal">Academic milestones, industry experience, and certifications that shaped my skills.</p>
+    <div class="timeline reveal">
+      <div class="tl-item"><div class="tl-left"><div class="tl-icon">🎓</div></div><div class="tl-right"><div class="tl-date">Sep 2023 – Present</div><div class="tl-title">BSc. Computer Science</div><div class="tl-place"> <b>Murang'a University of Technology,Murang'a, Kenya</b></div><div class="tl-desc">Studying algorithms, OS, databases,computer networks, software engineering, and AI/ML,computer security real times systems and problem solving techniques .</div></div></div>
+      <div class="tl-item"><div class="tl-left"><div class="tl-icon">💼</div></div><div class="tl-right"><div class="tl-date">May – Aug 2026</div><div class="tl-title">Computer Science Attachee/Intern</div><div class="tl-place"> <b>Posta Kenya, Nairobi</b></div><div class="tl-desc">Undertook a 3-month industrial attachment program by participating in day-to-day IT operations, improving technical skills, problem-solving abilities, and professional workplace communication.</div></div></div>
+      <div class="tl-item"><div class="tl-left"><div class="tl-icon">🏆</div></div><div class="tl-right"><div class="tl-date">Nov 2025- March 2026</div><div class="tl-title">Online certifications-Cisco,IBM,Google</div><div class="tl-place"></div><div class="tl-desc">Driven by a passion for continuous learning, I have earned industry-recognized certifications from Google, IBM, and Cisco, strengthening my expertise in software development, networking, cybersecurity, cloud computing, and digital innovation..</div></div></div>
+     
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services">
+  <div class="container">
+    <p class="section-label reveal">What I Offer</p>
+    <h2 class="section-title reveal">Services</h2>
+    <p class="section-sub reveal">I work with individuals, startups, and organizations to deliver quality tech solutions.</p>
+    <div class="services-grid">
+      <div class="svc-card reveal"><div class="svc-icon"><i class="fa-solid fa-code"></i></div><div class="svc-title">Web Design and Development</div><div class="svc-desc">Full-stack web apps using JS, Django, and REST APIs. From landing pages to complex platforms — responsive, fast, well-documented.</div></div>
+      <div class="svc-card reveal" style="transition-delay:.08s"><div class="svc-icon">🎨</div><div class="svc-title">UI/UX Design</div><div class="svc-desc">Interface design in Figma with user research, wireframing, prototyping, and usability testing for intuitive experiences.</div></div>
+      <div class="svc-card reveal" style="transition-delay:.16s"><div class="svc-icon"> <i class=" fa-solid fa-database"></i></div><div class="svc-title">Database Design</div><div class="svc-desc">Schema design, query optimization, and data migration using MySQL, PostgreSQL, and MongoDB for scalable data storage.</div></div>
+      <div class="svc-card reveal" style="transition-delay:.24s"><div class="svc-icon"> <i class="fa-solid fa-magnifying-glass-chart"></i></div><div class="svc-title">SEO Optimization</div><div class="svc-desc">Optimizing websites for search engines through better structure, performance, metadata, and search-friendly content..</div></div>
+       <div class="svc-card reveal" style="transition-delay:.24s"><div class="svc-icon"><i class="fa-solid fa-cloud-arrow-up"></i> </div><div class="svc-title">Hosting & Deployment</div><div class="svc-desc">Deploying web applications to reliable hosting platforms and configuring domains, servers, databases, SSL certificates, and production environments..</div></div>
+        <div class="svc-card reveal" style="transition-delay:.24s"><div class="svc-icon"><i class=" fa-solid fa-shield-halved"></i></div><div class="svc-title">Authentication & Web Security</div><div class="svc-desc">Implementing secure user authentication, authorization, sessions, password protection, and other essential web security practices..</div></div>
+         <div class="svc-card reveal" style="transition-delay:.24s"><div class="svc-icon"> </div> <i class="fa-solid fa-plug" ></i><div class="svc-title"> API Integration</div><div class="svc-desc">Integrating  APIs and third-party services to connect applications and enable dynamic data exchange and functionality.</div></div>
+          <div class="svc-card reveal" style="transition-delay:.24s"><div class="svc-icon"> </div> <i class="fa-solid fa-gauge-high" ></i><div class="svc-title"> Website Performance Optimization</div><div class="svc-desc">Improving website speed, responsiveness, and efficiency through optimized code, assets, database queries, and loading strategies..</div></div>
+    
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section id="testimonials">
+  <div class="container">
+    <p class="section-label reveal">Kind Words</p>
+    <h2 class="section-title reveal">Testimonials</h2>
+    <p class="section-sub reveal">What colleagues, friends, and teammates have said about working with me.</p>
+    <div class="testi-grid">
+      <div class="testi-card reveal"><div class="testi-stars">★★★★★</div><div class="testi-text">"Working with Daniel is a great experience. He consistently delivered quality work, paid attention to detail, and collaborated effectively with the team. His problem-solving skills and dedication made him a valuable contributor to every project."</div><div class="testi-author"><div class="testi-ava">👩‍💼</div><div><div class="testi-name">Blair Kimani</div><div class="testi-role">Software Developer,Colleague student</div></div></div></div>
+
+      <div class="testi-card reveal" style="transition-delay:.1s"><div class="testi-stars">★★★★★</div><div class="testi-text">"Daniel is dependable, creative, and always willing to learn. He communicates well, meets deadlines, and approaches every challenge with a positive attitude. I would gladly work with him again."</div><div class="testi-author"><div class="testi-ava">👩‍💼</div><div><div class="testi-name">Mercy Kinyua</div><div class="testi-role">Front-end Developer ,Colleague student</div></div></div></div>
+
+      <div class="testi-card reveal" style="transition-delay:.2s"><div class="testi-stars">★★★★★</div><div class="testi-text">"I was impressed by Daniel's technical knowledge and professionalism. He quickly adapted to new tasks, provided practical solutions, and demonstrated a strong commitment to producing excellent results throughout our collaboration".</div><div class="testi-author"><div class="testi-ava">👨‍💻</div><div><div class="testi-name">Walter Munene</div><div class="testi-role">Developer,Colleague student</div></div></div></div>
+
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="container">
+    <p class="section-label reveal">Get in Touch</p>
+    <h2 class="section-title reveal">Contact Me</h2>
+    <p class="section-sub reveal">Have a project, internship offer, or want to connect? I reply as soon as possible.</p>
+    <div class="contact-grid">
+      <div class="reveal from-left">
+        <div class="c-item"><div class="c-icon">📧</div><div><div class="c-label">Email</div>
+        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=danielmikuro29@gmail.com"  target="_blank">danielmikuro29@gmail.com</a>
+        <div class="c-val"></div></div></div>
+        <div class="c-item"><div class="c-icon">📱</div><div><div class="c-label">Phone / WhatsApp</div><div class="c-val">+254 741 480 470</div></div></div>
+        <div class="social-row">
+          <a class="social-btn" href="https://github.com/Dante254-del" target="_blank">🐙 GitHub</a>
+          <a class="social-btn" href="https://www.linkedin.com/in/daniel-mikuro-997ba82b5?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank">💼 LinkedIn</a>
+          <a class="social-btn" href="https://wa.me/254741480470"><i class="fa-brands fa-whatsapp"></i> Whatsapp</a>
+         
+        </div>
+      </div>
+      <div class="contact-form reveal from-right" style="transition-delay:.15s">
+        <!--Contact form-->
+       
+       <form id="contactForm" method="post" action="https://formspree.io/f/meaovnwp">
+          <div class="f-row">
+            <div class="f-group"><label>Name</label><input type="text" placeholder="Your full name" required name="name"></div>
+            <div class="f-group"><label>Email</label><input type="email" placeholder="your@email.com" required name="email"></div>
+          </div>
+          <div class="f-group"><label>Subject</label><input type="text" placeholder="Internship / Project / Other" required name="subject"></div>
+          <div class="f-group"><label>Message</label><textarea placeholder="Tell me about the opportunity..." required name="message"></textarea></div>
+          <button type="submit" class="f-submit">Send Message</button>  
+          <div class="f-success" id="formSuccess">✅ Message sent! I'll reply soon...</div>
+          
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-top">
+    <div><div class="footer-logo">Daniel<span>Mikuro</span></div><p class="footer-tagline">CS Student. Building things for the web, one commit at a time. Open to internships.</p></div>
+    <div class="footer-col"><h4>Navigate</h4><ul><li><a href="#about">About</a></li><li><a href="#skills">Skills</a></li><li><a href="#projects">Projects</a></li><li><a href="#experience">Experience</a></li></ul></div>
+    <div class="footer-col"><h4>More</h4><ul><li><a href="#services">Services</a></li><li><a href="pages/cv.html">Download CV</a></li><li><a href="#contact">Contact</a></li></ul></div>
+    <div class="footer-col"><h4>Connect</h4><ul><li><a href="https://github.com/Dante254-del">GitHub</a></li><li><a href="https://www.linkedin.com/in/daniel-mikuro-997ba82b5?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank">LinkedIn</a></li><li><a href="https://wa.me/254741480470">WhatsApp</li></ul></div>
+ 
+  </div>
+  <div class="footer-bottom">
+    <div class="footer-copy">&copy; 2026 <span>Daniel Mikuro</span>. All rights reserved.</div>
+    <div class="footer-copy">Built with HTML, CSS & JS — No frameworks.</div>
+  </div>
+</footer>
+
+<button id="btt" title="Back to top">↑</button>
+
+<!-- ============================================================
+     ALL JAVASCRIPT 
+     ============================================================ -->
+<script>
+(function() {
+
+  /* ------ SAFE STORAGE ------ */
+  function sGet(k){ try{ return localStorage.getItem(k); }catch(e){ return null; } }
+  function sSet(k,v){ try{ localStorage.setItem(k,v); }catch(e){} }
+
+  /* ------ DARK / LIGHT TOGGLE ------ */
+  var btn = document.getElementById('themeBtn');
+  function applyTheme(dark){
+    if(dark){ document.body.classList.add('dark'); }
+    else { document.body.classList.remove('dark'); }
+    if(btn){ btn.textContent = dark ? '☀️' : '🌙'; }
+  }
+  applyTheme(sGet('theme') === 'dark');
+  if(btn){
+    btn.onclick = function(){
+      var isDark = document.body.classList.contains('dark');
+      applyTheme(!isDark);
+      sSet('theme', !isDark ? 'dark' : 'light');
+    };
+  }
+
+  /* ------ HAMBURGER MENU — fixed for 480px mobile ------ */
+  var ham = document.getElementById('ham');
+  var mob = document.getElementById('mobileNav');
+  var menuOpen = false;
+  var lastTouch = 0;
+
+  function setMenu(open) {
+    menuOpen = open;
+    if (!mob || !ham) return;
+    var spans = ham.querySelectorAll('span');
+    if (open) {
+      mob.classList.add('open');
+      spans[0].style.transform = 'rotate(45deg) translate(5px, 5px)';
+      spans[1].style.opacity = '0';
+      spans[2].style.transform = 'rotate(-45deg) translate(5px, -5px)';
+      document.body.style.overflow = 'hidden';
+    } else {
+      mob.classList.remove('open');
+      spans[0].style.transform = '';
+      spans[1].style.opacity = '';
+      spans[2].style.transform = '';
+      document.body.style.overflow = '';
+    }
+  }
+
+  if (ham && mob) {
+    ham.addEventListener('touchstart', function(e) {
+      e.preventDefault();
+      lastTouch = Date.now();
+      setMenu(!menuOpen);
+    }, { passive: false });
+
+    ham.addEventListener('click', function(e) {
+      if (Date.now() - lastTouch < 500) return;
+      setMenu(!menuOpen);
+    });
+
+    var mlinks = document.querySelectorAll('.mob-link');
+    for (var i = 0; i < mlinks.length; i++) {
+      (function(link) {
+        link.addEventListener('touchstart', function() {
+          lastTouch = Date.now();
+          setTimeout(function() { setMenu(false); }, 80);
+        }, { passive: true });
+        link.addEventListener('click', function() {
+          if (Date.now() - lastTouch < 500) return;
+          setMenu(false);
+        });
+      })(mlinks[i]);
+    }
+
+    document.addEventListener('touchstart', function(e) {
+      if (menuOpen && !mob.contains(e.target) && !ham.contains(e.target)) {
+        setMenu(false);
+      }
+    }, { passive: true });
+
+    document.addEventListener('click', function(e) {
+      if (menuOpen && !mob.contains(e.target) && !ham.contains(e.target)) {
+        setMenu(false);
+      }
+    });
+  }
+
+  /* ------ TYPING EFFECT ------ */
+  var typedEl = document.getElementById('typed');
+  if(typedEl){
+    var words = ['Computer Science Student','Full-Stack Web Developer','AI & ML Explorer','Problem Solver','Open Source Contributor'];
+    var wi=0, ci=0, del=false;
+    function tick(){
+      var w = words[wi];
+      if(!del){ ci++; typedEl.textContent=w.slice(0,ci); if(ci===w.length){ del=true; setTimeout(tick,1800); return; } setTimeout(tick,90); }
+      else { ci--; typedEl.textContent=w.slice(0,ci); if(ci===0){ del=false; wi=(wi+1)%words.length; setTimeout(tick,400); return; } setTimeout(tick,45); }
+    }
+    setTimeout(tick, 700);
+  }
+
+  /* ------ 3D SCROLL REVEAL ------ */
+  document.body.classList.add('js-ready');
+  var reveals = document.querySelectorAll('.reveal');
+  if('IntersectionObserver' in window){
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(entry){
+        if(entry.isIntersecting){
+          entry.target.classList.add('show');
+          io.unobserve(entry.target);
+        }
+      });
+    }, {threshold:0.12, rootMargin:'0px 0px -55px 0px'});
+    for(var ri2=0;ri2<reveals.length;ri2++) io.observe(reveals[ri2]);
+  } else {
+    for(var rj=0;rj<reveals.length;rj++) reveals[rj].classList.add('show');
+  }
+  /* Always reveal hero content immediately; other sections animate as they enter. */
+  var heroReveals = document.querySelectorAll('#hero .reveal');
+  for(var hr=0;hr<heroReveals.length;hr++) heroReveals[hr].classList.add('show');
+
+  /* ------ SKILL BARS ------ */
+  var bars = document.querySelectorAll('.bar-fill');
+  var barsDone = false;
+  function fillBars(){
+    if(barsDone) return;
+    var skills = document.getElementById('skills');
+    if(!skills) return;
+    if(skills.getBoundingClientRect().top < window.innerHeight + 100){
+      barsDone = true;
+      for(var i=0;i<bars.length;i++){
+        (function(bar,idx){
+          setTimeout(function(){ bar.style.width = (bar.getAttribute('data-w')||0)+'%'; }, idx*40);
+        })(bars[i], i);
+      }
+    }
+  }
+  setTimeout(fillBars, 400);
+  window.addEventListener('scroll', fillBars, {passive:true});
+
+  /* ------ COUNTER ANIMATION ------ */
+  var counters = document.querySelectorAll('.stat-num[data-target]');
+  var counted = false;
+  function runCounters(){
+    if(counted) return;
+    var hero = document.querySelector('.hero-stats');
+    if(!hero) return;
+    if(hero.getBoundingClientRect().top < window.innerHeight){
+      counted = true;
+      for(var i=0;i<counters.length;i++){
+        (function(el){
+          var target = parseInt(el.getAttribute('data-target'));
+          var suffix = el.getAttribute('data-suffix') || '+';
+          var steps = 40, cur = 0;
+          var timer = setInterval(function(){
+            cur++;
+            var val = Math.round((cur/steps)*target);
+            if(target >= 1000){ el.textContent = (val/1000).toFixed(1)+'K'+suffix; }
+            else { el.textContent = val + suffix; }
+            if(cur >= steps){ clearInterval(timer); }
+          }, 30);
+        })(counters[i]);
+      }
+    }
+  }
+  setTimeout(runCounters, 800);
+  window.addEventListener('scroll', runCounters, {passive:true});
+
+  /* ------ PROJECT FILTER ------ */
+  var fbtns = document.querySelectorAll('.f-btn');
+  for(var fi=0;fi<fbtns.length;fi++){
+    fbtns[fi].onclick = function(){
+      for(var k=0;k<fbtns.length;k++) fbtns[k].classList.remove('active');
+      this.classList.add('active');
+      var f = this.getAttribute('data-f');
+      var cards = document.querySelectorAll('.proj-card');
+      for(var k=0;k<cards.length;k++){
+        var c = cards[k];
+        if(f==='all'||c.getAttribute('data-cat')===f){
+          c.style.display='flex';
+          c.style.animation='none';
+          void c.offsetWidth;
+          c.style.animation='popIn .45s ease both';
+        } else {
+          c.style.display='none';
+        }
+      }
+    };
+  }
+
+  /* ------ CONTACT FORM — sends real email via Formspree (AJAX, no reload) ------ */
+  var form = document.getElementById('contactForm');
+  if(form){
+    form.addEventListener('submit', function(e){
+      e.preventDefault();
+      var submitBtn = form.querySelector('.f-submit');
+      var successMsg = document.getElementById('formSuccess');
+      var errorMsg = document.getElementById('formError');
+      if(successMsg) successMsg.style.display='none';
+      if(errorMsg) errorMsg.style.display='none';
+
+      var action = form.getAttribute('action') || '';
+      if(action.indexOf('YOUR_FORM_ID') !== -1){
+        if(errorMsg){
+          errorMsg.textContent = '⚠️ Form isn\'t connected yet — set up your Formspree endpoint (see comment above the form in index.html), or email danielmikuro29@gmail.com directly.';
+          errorMsg.style.display='block';
+        }
+        return;
+      }
+
+      submitBtn.textContent = 'Sending…';
+      submitBtn.disabled = true;
+
+      fetch(action, {
+        method: 'POST',
+        body: new FormData(form),
+        headers: { 'Accept': 'application/json' }
+      }).then(function(response){
+        if(response.ok){
+          submitBtn.textContent = 'Message Sent ✓';
+          if(successMsg) successMsg.style.display='block';
+          form.reset();
+        } else {
+          throw new Error('Send failed');
+        }
+      }).catch(function(){
+        submitBtn.textContent = 'Send Message';
+        if(errorMsg) errorMsg.style.display='block';
+      }).finally(function(){
+        submitBtn.disabled = false;
+        setTimeout(function(){
+          submitBtn.textContent='Send Message';
+          if(successMsg) successMsg.style.display='none';
+        }, 5000);
+      });
+    });
+  }
+
+  /* ------ SCROLL PROGRESS BAR ------ */
+  var scrollBar = document.getElementById('scroll-bar');
+  window.addEventListener('scroll', function(){
+    if(!scrollBar) return;
+    var total = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    scrollBar.style.width = (total>0?(window.scrollY/total)*100:0)+'%';
+  }, {passive:true});
+
+  /* ------ ACTIVE NAV + BTT ------ */
+  var sections = document.querySelectorAll('section[id]');
+  var navLinks = document.querySelectorAll('.nav-links a');
+  var btt = document.getElementById('btt');
+  var navbar = document.getElementById('navbar');
+  window.addEventListener('scroll', function(){
+    var cur='';
+    for(var i=0;i<sections.length;i++){ if(window.scrollY>=sections[i].offsetTop-150) cur=sections[i].id; }
+    for(var i=0;i<navLinks.length;i++){
+      var href=navLinks[i].getAttribute('href')||'';
+      navLinks[i].classList.toggle('active', href==='#'+cur || href.endsWith('#'+cur));
+    }
+    if(btt) btt.classList.toggle('show', window.scrollY>400);
+    if(navbar) navbar.style.boxShadow = window.scrollY>10?'0 2px 16px rgba(0,0,0,.1)':'none';
+  }, {passive:true});
+  if(btt){ btt.onclick=function(){ window.scrollTo({top:0,behavior:'smooth'}); }; }
+
+  /* ------ RIPPLE ON BUTTONS ------ */
+  var rippleBtns = document.querySelectorAll('.btn,.f-btn,.f-submit,.nav-cta');
+  for(var ri=0;ri<rippleBtns.length;ri++){
+    rippleBtns[ri].addEventListener('click',function(e){
+      var r=document.createElement('span');
+      var rect=this.getBoundingClientRect();
+      var size=Math.max(rect.width,rect.height);
+      r.style.cssText='position:absolute;border-radius:50%;pointer-events:none;width:'+size+'px;height:'+size+'px;left:'+(e.clientX-rect.left-size/2)+'px;top:'+(e.clientY-rect.top-size/2)+'px;background:rgba(255,255,255,0.3);transform:scale(0);animation:ripple 0.5s ease-out forwards;';
+      this.appendChild(r);
+      setTimeout(function(){ r.remove(); },600);
+    });
+  }
+
+  /* ------ MAGNETIC GLOW ON BUTTONS ------ */
+  var glowBtns = document.querySelectorAll('.btn');
+  for(var gi=0; gi<glowBtns.length; gi++){
+    glowBtns[gi].addEventListener('mousemove', function(e){
+      var rect = this.getBoundingClientRect();
+      this.style.setProperty('--mx', ((e.clientX-rect.left)/rect.width*100)+'%');
+      this.style.setProperty('--my', ((e.clientY-rect.top)/rect.height*100)+'%');
+    });
+  }
+
+  /* ------ SUBTLE 3D CARD TILT ------ */
+  var tiltCards = document.querySelectorAll('.proj-card,.skill-card,.svc-card,.testi-card,.hobby-card');
+  var canTilt = window.matchMedia('(min-width:961px) and (pointer:fine)').matches && !window.matchMedia('(prefers-reduced-motion:reduce)').matches;
+  if(canTilt){
+    for(var pi=0;pi<tiltCards.length;pi++){
+      (function(card){
+        card.addEventListener('mousemove',function(e){
+          var rect=card.getBoundingClientRect();
+          var px=(e.clientX-rect.left)/rect.width;
+          var py=(e.clientY-rect.top)/rect.height;
+          var rx=(0.5-py)*7;
+          var ry=(px-0.5)*7;
+          card.style.setProperty('--tilt-x',(px*100)+'%');
+          card.style.setProperty('--tilt-y',(py*100)+'%');
+          card.style.transform='perspective(900px) rotateX('+rx+'deg) rotateY('+ry+'deg) translateY(-6px) scale(1.012)';
+        });
+        card.addEventListener('mouseleave',function(){
+          card.style.transform='';
+          card.style.removeProperty('--tilt-x');
+          card.style.removeProperty('--tilt-y');
+        });
+      })(tiltCards[pi]);
+    }
+  }
+
+  /* ------ HERO 3D DEPTH ------ */
+  var heroSection = document.getElementById('hero');
+  var heroContent = heroSection ? heroSection.querySelector('.hero-grid > div:first-child') : null;
+  if(heroSection && heroContent && window.matchMedia('(min-width:961px) and (pointer:fine)').matches && !window.matchMedia('(prefers-reduced-motion:reduce)').matches){
+    heroSection.addEventListener('mousemove',function(e){
+      var rect=heroSection.getBoundingClientRect();
+      var x=(e.clientX-rect.left)/rect.width-.5;
+      var y=(e.clientY-rect.top)/rect.height-.5;
+      heroContent.style.transform='translate3d('+(x*5)+'px,'+(y*4)+'px,0) rotateY('+(x*-1.5)+'deg) rotateX('+(y*-1)+'deg)';
+    });
+    heroSection.addEventListener('mouseleave',function(){ heroContent.style.transform=''; });
+  }
+
+  /* ------ HERO IMAGE PARALLAX (mouse-follow motion graphic) ------ */
+  var heroWrap = document.getElementById('heroImgWrap');
+  if(heroWrap && window.matchMedia('(min-width:961px)').matches){
+    document.getElementById('hero').addEventListener('mousemove', function(e){
+      var rect = this.getBoundingClientRect();
+      var relX = (e.clientX - rect.left)/rect.width - 0.5;
+      var relY = (e.clientY - rect.top)/rect.height - 0.5;
+      heroWrap.style.transform = 'translate('+(relX*14)+'px,'+(relY*14)+'px)';
+    });
+    document.getElementById('hero').addEventListener('mouseleave', function(){
+      heroWrap.style.transform = '';
+      heroWrap.style.transition = 'transform .4s ease';
+    });
+  }
+
+})();
+</script>
+</body>
+</html>
